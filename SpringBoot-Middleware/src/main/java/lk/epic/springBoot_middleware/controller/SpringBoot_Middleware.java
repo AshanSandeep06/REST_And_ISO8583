@@ -45,7 +45,7 @@ public class SpringBoot_Middleware {
 
             message.set(35, allFields.getF35());
             message.set(41, allFields.getF41());
-            message.set(42, allFields.getF41());
+            message.set(42, allFields.getF42());
             message.set(55, allFields.getF55());
             message.set(62, allFields.getF62());
 

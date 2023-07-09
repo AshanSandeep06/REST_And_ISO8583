@@ -27,7 +27,7 @@ public class Server {
             Socket localSocket = serverSocket.accept();
 
             System.out.println("Connected Client IP Address : " + localSocket.getInetAddress());
-            System.out.println("Connected Client Port Number : " + localSocket.getLocalPort());
+            System.out.println("Connected Client Port Number : " + localSocket.getPort());
 
             dataInputStream = new DataInputStream(localSocket.getInputStream());
             dataOutputStream = new DataOutputStream(localSocket.getOutputStream());
