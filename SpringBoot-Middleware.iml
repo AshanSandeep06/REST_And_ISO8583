@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="$MODULE_DIR$/SpringBoot-Middleware/pom.xml" external.system.module.type="SINGLE_MODULE" external.system.module.version="223-2" org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots />
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/SpringBoot-Middleware/src/main/java" />
+          <root url="file://$MODULE_DIR$/SpringBoot-Middleware/src/main/resources" />
+          <root url="file://$MODULE_DIR$/SpringBoot-Middleware/target/generated-sources/annotations" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/SpringBoot-Middleware/target/classes" />
+    <output-test url="file://$MODULE_DIR$/SpringBoot-Middleware/target/test-classes" />
+    <content url="file://$MODULE_DIR$/SpringBoot-Middleware">
+      <sourceFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/target/generated-sources/annotations" isTestSource="false" generated="true" />
+      <excludeFolder url="file://$MODULE_DIR$/SpringBoot-Middleware/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.jpos:jpos:2.1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:3.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.jdom:jdom2:2.0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.javatuples:javatuples:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jline:jline:3.22.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" name="Maven: commons-cli:commons-cli:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.69" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpg-jdk15on:1.69" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.osgi:org.osgi.core:6.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: jdbm:jdbm:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sleepycat:je:18.3.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-core:2.9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.i2p.crypto:eddsa:0.3.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.sshd:sshd-common:2.9.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:2.0.6" level="project" />
+  </component>
+</module>
