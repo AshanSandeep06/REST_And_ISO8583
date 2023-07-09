@@ -50,9 +50,6 @@ public class Server {
 
                 // Send ISO8583 Response message to the Client
                 sendISO8583ResponseToClient(packager);
-
-                System.out.print("Do you want to Quit the Server : ");
-                quitMessage = bufferedReader.readLine().trim();
             }
 
         } catch (Exception e) {
