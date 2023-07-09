@@ -23,19 +23,19 @@ public class Server {
         try {
             serverSocket = new ServerSocket(PORT);
             System.out.println("Server has started in port : " + PORT);
-
-            Socket localSocket = serverSocket.accept();
-
-            System.out.println("Connected Client IP Address : " + localSocket.getInetAddress());
-            System.out.println("Connected Client Port Number : " + localSocket.getPort());
-
-            dataInputStream = new DataInputStream(localSocket.getInputStream());
-            dataOutputStream = new DataOutputStream(localSocket.getOutputStream());
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             String quitMessage = "No";
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
             ISO87APackager packager = new ISO87APackager();
 
             while (!quitMessage.equals("Yes")) {
+                Socket localSocket = serverSocket.accept();
+
+                System.out.println("Connected Client IP Address : " + localSocket.getInetAddress());
+                System.out.println("Connected Client Port Number : " + localSocket.getPort());
+
+                dataInputStream = new DataInputStream(localSocket.getInputStream());
+                dataOutputStream = new DataOutputStream(localSocket.getOutputStream());
+
                 int requestLength = dataInputStream.readInt();
                 byte[] requestData = new byte[requestLength];
                 dataInputStream.readFully(requestData);
